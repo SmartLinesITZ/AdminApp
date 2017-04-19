@@ -10,7 +10,7 @@ class RestaurantesController extends Controller
 
     public function index()
     {
-        return view("restaurantes.index")
+        return view("restaurantes.index");
     }
 
 
@@ -50,6 +50,6 @@ class RestaurantesController extends Controller
 
     public function rest()
     {
-        return view('restaurantes.rest',[])
+        return view('restaurantes.rest',[]);
     }
 }
