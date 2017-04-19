@@ -8,7 +8,7 @@
 <!-- CSRF Token -->
 <meta name="csrf-token" content="{{ csrf_token() }}">
 
-<title>{{ config('app.name', 'Laravel') }}</title>
+<title></title>
 
 <!-- Styles -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
@@ -19,12 +19,32 @@
 <link rel="stylesheet" type="text/css" href="{{ url('/css/app.css') }}">
 <!-- Scripts -->
 <script>
-    window.Laravel = <?php echo json_encode([
-        'csrfToken' => csrf_token(),
-    ]); ?>
+    window.Laravel = <?php echo json_encode(['csrfToken' => csrf_token(),]); ?>
 </script>
 </head>
 <body>
+  <div class="container">
+  		<div class="row">
+  			<br/>
+  			<div class="col m2 push-m1">
+  				<img src="" alt="" class="responsive-img">
+  			</div>
+  			<div class="col m10">
+  				<h4 class="center">Smart Lines</h4>
+  				<h5 class="center">Software justo para tu empresa</h5>
+  			</div>
+  		</div>
+  	</div>
+  <nav class="z-depth-2 teal" role="navigation">
+      	<div class="nav-wrapper container">
+        		<a href="#" class="brand-logo">Inicio</a>
+        		<ul id="nav-mobile" class="right hide-on-med-and-down">
+          		<li><a href="#"><i class="material-icons left">folder_shared</i>Registro</a></li>
+          		<li><a href="#"><i class="material-icons left">store</i>Restaunrantes</a></li>
+          		<li><a href="#"><i class="material-icons right">directions_run</i>Cerrar sesión</a></li>
+        		</ul>
+      	</div>
+    	</nav>
 
     @yield('content')
 

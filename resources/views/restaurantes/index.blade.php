@@ -1,11 +1,11 @@
 
 @extends("layouts.home");
 @section("content")
-<div class="big-padding text-center blue-grey whitw-text">
+<div class="">
 	<h1>Prouctos</h1>
 </div>
 <div class="container">
-	<table class="table table-bordered">
+	<table class="centered">
 		<thead>
 		<tr>
 			<td>Nombre de restaurante</td>
