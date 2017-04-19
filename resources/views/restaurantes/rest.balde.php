@@ -1,1 +1,10 @@
-<h1>Hola</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    Holi
+  </body>
+</html>
