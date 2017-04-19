@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'MainController@home');
+
 
 Route::resource('resturantes', 'RestauranteControllador');
 //Route::resource('menu', 'MenuController');
